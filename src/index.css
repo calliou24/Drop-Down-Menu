@@ -1,0 +1,39 @@
+
+
+@font-face{
+  font-family: 'Epilogue';
+  src: url(./assets/fonts/Epilogue-Bold.ttf);
+  font-weight: 700;
+}
+@font-face{
+  font-family: 'Epilogue';
+  src: url(./assets/fonts/Epilogue-Medium.ttf);
+  font-weight: 500;
+}
+*{
+  font-family: 'Epilogue';
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+body {
+  --almost-white:hsl(0, 0%, 98%);
+  --medium-gray:hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.overflowH{
+  overflow: hidden;
+}
+
+

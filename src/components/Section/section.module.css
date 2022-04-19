@@ -1,0 +1,107 @@
+.imgCont{
+  background-image:url(../../assets/images/image-hero-mobile.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  min-height: 400px;
+  max-height: 600px;
+
+}
+.info{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.title{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.text{
+  color: var(--medium-gray);
+}
+.btnLearnMore{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--almost-black);
+  color: var(--almost-white);
+  padding: 15px 20px ;
+  border-radius: 10px;
+  font-weight: 700;
+
+}
+.clientsImgCont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.img {
+  width: 4rem;
+}
+@media ( min-width : 50em ) {
+  .section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: auto;
+  }
+  .imgCont{
+    max-width: 450px;
+    height: 550px;
+    background-image:url(../../assets/images/image-hero-desktop.png) ;
+    background-size:90%;
+  }
+  .info{
+    width: 45%;
+    margin: 0;
+    text-align: left;
+    padding: 50px 0;
+    display: grid;
+  }
+  .title{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .text{
+    color: var(--medium-gray);
+    line-height: 1.4;
+    font-size: 1.2rem;
+  }
+  .btnLearnMore{
+    border: none;
+    background-color: var(--almost-black);
+    color: var(--almost-white);
+    font-weight: 700;
+    padding: 15px 50px ;
+    font-weight: 700;
+    width: fit-content;
+    transition: all .1s;
+  
+  }
+  .btnLearnMore:hover{
+    outline: 2px solid var(--almost-black);
+    background-color: transparent;
+    color: var(--almost-black);
+  }
+
+  .clientsImgCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+  .img {
+    width: 6rem;
+  }
+}
